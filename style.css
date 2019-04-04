@@ -1,0 +1,176 @@
+/*logo formatting */
+
+.logo {
+  position: absolute;
+  float:left;
+  display: block;
+  top: 1em;
+  padding-left: 1em;
+  height:50px;
+}
+
+/*h1 formatting*/
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 4em;
+  color:#c4d7ed;
+}
+
+/*h2 formatting*/
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 100;
+  font-size: 3em;
+  color:#c4d7ed;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  padding-left: 1em;
+  padding-top: 1em;
+  color: black;
+}
+
+p {
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+/* pics formatting */
+.laura {
+  width:100%;
+  height:100%;
+  max-width: 100%;
+  padding: 0em;
+}
+
+.marv {
+  width:100%;
+  height:100%;
+  max-width: 100%;
+  padding: 0em;
+}
+
+.lg {
+  width:100%;
+  height:100%;
+  max-width: 100%;
+  padding: 0em;
+}
+
+/*
+*
+hero formatting
+*
+*/
+
+body {
+  height:100%;
+}
+
+.hero-image {
+     background-image: url("/Users/laurasteel/Downloads/keyboard-shortcuts/My Portfolio/images2/web-hero.jpg");
+     height:50%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-right: 3em;
+     position:relative;
+   }
+
+.hero-text {
+  text-align:right;
+  top:50%;
+  left:50%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right:3em;
+}
+
+/* bio formatting */
+.bio {
+     background: #f6f6f6;
+     width:100%;
+}
+
+/* dog formatting */
+
+.dog-container
+{
+     background: #E6E6FA;
+     width:100%;
+}
+
+/* largest breakpoint */
+
+.bio {
+   display:flex;
+   flex-wrap: wrap;
+   width:100%;
+}
+
+@media screen and (min-width:1000px) {
+  .container {
+    width:1000px;
+    margin-left:auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width:750px) {
+  h1, h2 {
+    color:white;
+  }
+}
+
+
+@media screen and (min-width:700px) {
+  .bio-content {
+    width:50%;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-right:0em;
+    padding-left:1em;
+  }
+  .laura {
+    width:44%;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-right:1em;
+    padding-left:1em;
+  }
+
+  .lg {
+    width:44%;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-right:1em;
+    padding-left:1em;
+  }
+  .marv{
+    width:44%;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-right:1em;
+    padding-left:1em;
+  }
+}
+
+/* logo breakpoint */
+
+@media screen and (max-width:700px) {
+  .logo {
+    position: absolute;
+    float:left;
+    display: block;
+    top: 1em;
+    padding-right: 1em;
+    height:30px;
+  }
+}
