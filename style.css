@@ -75,7 +75,7 @@ body {
 }
 
 .hero-image {
-     background-image: url("/Users/laurasteel/Downloads/keyboard-shortcuts/My Portfolio/images2/web-hero.jpg");
+     background-image: url("images2/web-hero.jpg");
      height:50%;
      background-position: center;
      background-repeat: no-repeat;
